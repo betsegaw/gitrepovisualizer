@@ -2,8 +2,11 @@ gitrepovisualizer
 =================
 
 Simple, beautiful and slow git Visualization
+
 ![](overview.png)
+
 Hovering over the commits will show you details
+
 ![](commitdetails.png)
 
 You can zoom in and zoom out and move the various commits to try and untangle them.
