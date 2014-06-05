@@ -16,5 +16,7 @@ Since I am using a web browser control and using visjs in the background, it end
 
 ###Components used
 libgit2sharp
+
 mahapps
+
 visjs
