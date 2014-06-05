@@ -1,0 +1,14 @@
+﻿<controls:MetroWindow x:Class="GitCommenting.VisualizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="GitRepoVisualizer" Height="650"  Width="650" ResizeMode="CanResizeWithGrip" SizeChanged="WindowSizeChangedEvent">
+    <WebBrowser x:Name="wb" />
+    <controls:MetroWindow.WindowCommands>
+        <controls:WindowCommands>
+            <Button Content="Select Repository" Click="SelectRepositoryButtonClickEvent"/>
+            <Button Content="Refresh" Click="RefreshDiagram"/>
+        </controls:WindowCommands>
+    </controls:MetroWindow.WindowCommands>
+</controls:MetroWindow>
+

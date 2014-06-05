@@ -1,0 +1,37 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Graph | Basic usage</title>
+
+    <script type="text/javascript" src="[CURRENTDIRECTORY]vis.js"></script>
+
+    <style type="text/css">
+        #mygraph {
+            width: [WIDTH]px;
+            height: [HEIGHT]px;
+            border: 1px solid lightgray;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="mygraph"></div>
+
+    <script type="text/javascript">
+            var container = document.getElementById('mygraph');
+            var nodes = [NODES];
+            var edges = [EDGES];
+
+            var data = {
+                nodes: nodes,
+                edges: edges
+            };
+
+            var graph = new vis.Graph(container, data);
+    </script>
+
+</body>
+</html>
